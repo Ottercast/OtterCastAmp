@@ -370,38 +370,11 @@ X Vdd 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Power_Protection_SP0502BAHT
+# OtterCastAmp-rescue_+1.1V-S3-OLinuXino_Rev_A
 #
-DEF Power_Protection_SP0502BAHT D 0 20 Y N 1 F N
-F0 "D" 225 100 50 H V L CNN
-F1 "Power_Protection_SP0502BAHT" 225 25 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 225 -50 50 H I L CNN
-F3 "" 125 125 50 H I C CNN
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 0 -50 10 0 1 0 F
-S -175 100 175 -100 0 1 10 f
-P 2 0 1 0 -100 100 -100 50 N
-P 2 0 1 0 0 -50 0 -100 N
-P 2 0 1 0 100 100 100 50 N
-P 4 0 1 0 -130 40 -130 50 -75 50 -70 50 N
-P 4 0 1 0 -100 50 -100 -50 100 -50 100 50 N
-P 4 0 1 0 -100 50 -75 0 -125 0 -100 50 N
-P 4 0 1 0 70 40 70 50 125 50 130 50 N
-P 4 0 1 0 100 50 75 0 125 0 100 50 N
-X A 3 0 -200 100 U 50 50 0 0 P
-X K 1 -100 200 100 D 50 50 1 1 P
-X K 2 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# S3-OLinuXino_Rev_A_+1.1V
-#
-DEF S3-OLinuXino_Rev_A_+1.1V #PWRV 0 40 Y Y 1 F P
+DEF OtterCastAmp-rescue_+1.1V-S3-OLinuXino_Rev_A #PWRV 0 40 Y Y 1 F P
 F0 "#PWRV" 0 -200 60 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+1.1V" 0 300 60 H V C CNN
+F1 "OtterCastAmp-rescue_+1.1V-S3-OLinuXino_Rev_A" 0 300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -412,11 +385,11 @@ X +1.1V 1 0 0 0 U 50 50 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+1V2
+# OtterCastAmp-rescue_+1V2-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+1V2 #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+1V2-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+1V2" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+1V2-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -427,11 +400,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+2.5V
+# OtterCastAmp-rescue_+2.5V-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+2.5V #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+2.5V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+2.5V" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+2.5V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -442,11 +415,11 @@ X +2.5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+2V8
+# OtterCastAmp-rescue_+2V8-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+2V8 #PWR 0 40 Y Y 1 F P
+DEF OtterCastAmp-rescue_+2V8-S3-OLinuXino_Rev_A #PWR 0 40 Y Y 1 F P
 F0 "#PWR" 0 -200 60 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+2V8" 0 200 60 H V C CNN
+F1 "OtterCastAmp-rescue_+2V8-S3-OLinuXino_Rev_A" 0 200 60 H V C CNN
 F2 "" 70 50 60 H I C CNN
 F3 "" 70 50 60 H I C CNN
 DRAW
@@ -457,11 +430,11 @@ X +2V8 1 0 0 0 U 50 50 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+3.0VA
+# OtterCastAmp-rescue_+3.0VA-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+3.0VA #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+3.0VA-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+3.0VA" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+3.0VA-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -472,11 +445,11 @@ X +3.0VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+3.3V
+# OtterCastAmp-rescue_+3.3V-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+3.3V #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+3.3V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+3.3V" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+3.3V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -487,11 +460,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+3.3V_RTC
+# OtterCastAmp-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+3.3V_RTC #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -300 60 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+3.3V_RTC" 0 150 50 H V C CNN
+F1 "OtterCastAmp-rescue_+3.3V_RTC-S3-OLinuXino_Rev_A" 0 150 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -502,11 +475,11 @@ X +3.3V_RTC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+5V
+# OtterCastAmp-rescue_+5V-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+5V #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+5V-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+5V" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+5V-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -517,11 +490,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_+5V_USBOTG
+# OtterCastAmp-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A
 #
-DEF S3-OLinuXino_Rev_A_+5V_USBOTG #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_+5V_USBOTG" 0 140 50 H V C CNN
+F1 "OtterCastAmp-rescue_+5V_USBOTG-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -532,90 +505,11 @@ X +5V_USBOTG 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# S3-OLinuXino_Rev_A_GND
+# OtterCastAmp-rescue_49F-1201GYD2NL-otter
 #
-DEF S3-OLinuXino_Rev_A_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# S3-OLinuXino_Rev_A_IPS
-#
-DEF S3-OLinuXino_Rev_A_IPS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -100 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_IPS" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X IPS 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# S3-OLinuXino_Rev_A_SY8009AAAC(SOT23-5)
-#
-DEF S3-OLinuXino_Rev_A_SY8009AAAC(SOT23-5) U 0 40 Y Y 1 L N
-F0 "U" -150 250 50 H V L BNN
-F1 "S3-OLinuXino_Rev_A_SY8009AAAC(SOT23-5)" -400 -300 50 H V L BNN
-F2 "" 30 150 20 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- *SOT23-5*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 0 f
-X EN 1 -300 0 100 R 40 40 1 1 I
-X GND 2 -300 -100 100 R 40 40 1 1 W
-X LX 3 300 100 100 L 40 40 1 1 O
-X IN 4 -300 100 100 R 40 40 1 1 I
-X FB 5 300 -100 100 L 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# S3-OLinuXino_Rev_A_VCC-DDR
-#
-DEF S3-OLinuXino_Rev_A_VCC-DDR #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "S3-OLinuXino_Rev_A_VCC-DDR" 0 130 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC-DDR 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# otter_49F-1201GYD2NL
-#
-DEF otter_49F-1201GYD2NL J 0 20 Y Y 1 F N
+DEF OtterCastAmp-rescue_49F-1201GYD2NL-otter J 0 20 Y Y 1 F N
 F0 "J" 500 550 50 H V R CNN
-F1 "otter_49F-1201GYD2NL" 400 -550 50 H V C CNN
+F1 "OtterCastAmp-rescue_49F-1201GYD2NL-otter" 400 -550 50 H V C CNN
 F2 "otter:49F-1201GYDXNL" -400 -550 50 H I C CNN
 F3 "" -415 -235 50 H I L TNN
 $FPLIST
@@ -772,11 +666,11 @@ X ~ SH 0 -650 150 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# otter_AP6236
+# OtterCastAmp-rescue_AP6236-otter
 #
-DEF otter_AP6236 U 0 35 Y Y 1 F N
+DEF OtterCastAmp-rescue_AP6236-otter U 0 35 Y Y 1 F N
 F0 "U" 0 1300 60 H V C CNN
-F1 "otter_AP6236" 0 1200 60 H V C CNN
+F1 "OtterCastAmp-rescue_AP6236-otter" 0 1200 60 H V C CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 -200 60 H V C CNN
 DRAW
@@ -828,11 +722,11 @@ X VDD33 9 -600 1050 98 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# otter_AXP209(QFN-48)
+# OtterCastAmp-rescue_AXP209(QFN-48)-otter
 #
-DEF otter_AXP209(QFN-48) U 0 40 Y Y 1 F N
+DEF OtterCastAmp-rescue_AXP209(QFN-48)-otter U 0 40 Y Y 1 F N
 F0 "U" -50 2450 50 H V L BNN
-F1 "otter_AXP209(QFN-48)" -300 -2600 50 H V L BNN
+F1 "OtterCastAmp-rescue_AXP209(QFN-48)-otter" -300 -2600 50 H V L BNN
 F2 "OLIMEX_IC-FP:QFN48-6x6mm-OLIMEX_V2" 0 -2700 50 H I C CNN
 F3 "http://dl.linux-sunxi.org/AXP/AXP209_Datasheet_v1.0en.pdf" 0 -2800 50 H I C CNN
 $FPLIST
@@ -892,11 +786,11 @@ X PGND2 9 600 800 200 L 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# otter_AllWinner-S3(FBGA-234)
+# OtterCastAmp-rescue_AllWinner-S3(FBGA-234)-otter
 #
-DEF otter_AllWinner-S3(FBGA-234) U 0 40 Y Y 5 F N
+DEF OtterCastAmp-rescue_AllWinner-S3(FBGA-234)-otter U 0 40 Y Y 5 F N
 F0 "U" 0 1900 50 H V C CNN
-F1 "otter_AllWinner-S3(FBGA-234)" 0 -1900 50 H V C CNN
+F1 "OtterCastAmp-rescue_AllWinner-S3(FBGA-234)-otter" 0 -1900 50 H V C CNN
 F2 "OLIMEX_IC-FP:FBGA-234(Pitch-0.65mm_Pad-0.3mm_11x11x1.08mm)" 0 -2050 50 H I C CNN
 F3 "" 200 1700 50 H I C CNN
 DRAW
@@ -1149,11 +1043,11 @@ X LRADC0 T8 700 1700 200 L 50 50 5 1 I
 ENDDRAW
 ENDDEF
 #
-# otter_GND
+# OtterCastAmp-rescue_GND-S3-OLinuXino_Rev_A
 #
-DEF otter_GND #PWR 0 0 Y Y 1 F P
+DEF OtterCastAmp-rescue_GND-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "otter_GND" 0 -150 50 H V C CNN
+F1 "OtterCastAmp-rescue_GND-S3-OLinuXino_Rev_A" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1162,11 +1056,39 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# otter_KH-5220-A56_U.FL
+# OtterCastAmp-rescue_GND-otter
 #
-DEF otter_KH-5220-A56_U.FL AE 0 40 N N 1 F N
+DEF OtterCastAmp-rescue_GND-otter #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "OtterCastAmp-rescue_GND-otter" 0 -150 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# OtterCastAmp-rescue_IPS-S3-OLinuXino_Rev_A
+#
+DEF OtterCastAmp-rescue_IPS-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "OtterCastAmp-rescue_IPS-S3-OLinuXino_Rev_A" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X IPS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# OtterCastAmp-rescue_KH-5220-A56_U.FL-otter
+#
+DEF OtterCastAmp-rescue_KH-5220-A56_U.FL-otter AE 0 40 N N 1 F N
 F0 "AE" -75 175 50 H V R CNN
-F1 "otter_KH-5220-A56_U.FL" -75 100 50 H V R CNN
+F1 "OtterCastAmp-rescue_KH-5220-A56_U.FL-otter" -75 100 50 H V R CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -1184,11 +1106,11 @@ X NC NC -100 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# otter_PJ-3270
+# OtterCastAmp-rescue_PJ-3270-otter
 #
-DEF otter_PJ-3270 J 0 20 Y Y 1 F N
+DEF OtterCastAmp-rescue_PJ-3270-otter J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "otter_PJ-3270" 0 250 50 H V C CNN
+F1 "OtterCastAmp-rescue_PJ-3270-otter" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1210,11 +1132,11 @@ X ~ 6 200 -300 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# otter_SSM2603
+# OtterCastAmp-rescue_SSM2603-otter
 #
-DEF otter_SSM2603 U 0 40 Y Y 1 F N
+DEF OtterCastAmp-rescue_SSM2603-otter U 0 40 Y Y 1 F N
 F0 "U" 650 1450 50 H V C CNN
-F1 "otter_SSM2603" 650 1550 50 H V C CNN
+F1 "OtterCastAmp-rescue_SSM2603-otter" 650 1550 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1251,11 +1173,11 @@ X GND EP 300 -1750 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# otter_SY6280AAC
+# OtterCastAmp-rescue_SY6280AAC-otter
 #
-DEF otter_SY6280AAC U 0 40 Y Y 1 F N
+DEF OtterCastAmp-rescue_SY6280AAC-otter U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "otter_SY6280AAC" 0 300 50 H V C CNN
+F1 "OtterCastAmp-rescue_SY6280AAC-otter" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1265,6 +1187,84 @@ X GND 2 350 -150 100 L 50 50 1 1 I
 X ISET 3 350 50 100 L 50 50 1 1 I
 X EN 4 -350 -150 100 R 50 50 1 1 I
 X IN 5 -350 150 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OtterCastAmp-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A
+#
+DEF OtterCastAmp-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A U 0 40 Y Y 1 L N
+F0 "U" -150 250 50 H V L BNN
+F1 "OtterCastAmp-rescue_SY8009AAAC(SOT23-5)-S3-OLinuXino_Rev_A" -400 -300 50 H V L BNN
+F2 "" 30 150 20 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *SOT23-5*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 0 f
+X EN 1 -300 0 100 R 40 40 1 1 I
+X GND 2 -300 -100 100 R 40 40 1 1 W
+X LX 3 300 100 100 L 40 40 1 1 O
+X IN 4 -300 100 100 R 40 40 1 1 I
+X FB 5 300 -100 100 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OtterCastAmp-rescue_VCC-DDR-S3-OLinuXino_Rev_A
+#
+DEF OtterCastAmp-rescue_VCC-DDR-S3-OLinuXino_Rev_A #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "OtterCastAmp-rescue_VCC-DDR-S3-OLinuXino_Rev_A" 0 130 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC-DDR 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Protection_SP0502BAHT
+#
+DEF Power_Protection_SP0502BAHT D 0 20 Y N 1 F N
+F0 "D" 225 100 50 H V L CNN
+F1 "Power_Protection_SP0502BAHT" 225 25 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 225 -50 50 H I L CNN
+F3 "" 125 125 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 0 -50 10 0 1 0 F
+S -175 100 175 -100 0 1 10 f
+P 2 0 1 0 -100 100 -100 50 N
+P 2 0 1 0 0 -50 0 -100 N
+P 2 0 1 0 100 100 100 50 N
+P 4 0 1 0 -130 40 -130 50 -75 50 -70 50 N
+P 4 0 1 0 -100 50 -100 -50 100 -50 100 50 N
+P 4 0 1 0 -100 50 -75 0 -125 0 -100 50 N
+P 4 0 1 0 70 40 70 50 125 50 130 50 N
+P 4 0 1 0 100 50 75 0 125 0 100 50 N
+X A 3 0 -200 100 U 50 50 0 0 P
+X K 1 -100 200 100 D 50 50 1 1 P
+X K 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #

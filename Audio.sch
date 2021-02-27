@@ -22,7 +22,7 @@ BT-PCM-DIN
 Text GLabel 4650 4100 0    50   Input ~ 0
 BT-PCM-DOUT
 $Comp
-L otter:SSM2603 U6
+L OtterCastAmp-rescue:SSM2603-otter U6
 U 1 1 5FF6F21F
 P 5750 4050
 F 0 "U6" H 6450 3900 50  0000 C CNN
@@ -33,7 +33,7 @@ F 3 "" H 5750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:GND #PWR0205
+L OtterCastAmp-rescue:GND-otter #PWR0205
 U 1 1 5FF88FDC
 P 5850 5800
 F 0 "#PWR0205" H 5850 5550 50  0001 C CNN
@@ -44,7 +44,7 @@ F 3 "" H 5850 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:GND #PWR0206
+L OtterCastAmp-rescue:GND-otter #PWR0206
 U 1 1 5FF8C63C
 P 6050 5800
 F 0 "#PWR0206" H 6050 5550 50  0001 C CNN
@@ -68,7 +68,7 @@ F 3 "~" H 4750 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B43
 P 4850 5150
 AR Path="/5D8A1FAC/5FF96B43" Ref="#PWR?"  Part="1" 
@@ -113,7 +113,7 @@ $EndComp
 Connection ~ 4750 5050
 Connection ~ 4750 5250
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B59
 P 4650 5150
 AR Path="/5D8A1FAC/5FF96B59" Ref="#PWR?"  Part="1" 
@@ -132,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5250 4400 5250
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B61
 P 4100 5050
 AR Path="/5D8A1FAC/5FF96B61" Ref="#PWR?"  Part="1" 
@@ -149,7 +149,7 @@ $EndComp
 Wire Wire Line
 	4100 5050 4200 5050
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR?
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FF96B68
 P 4100 5250
 AR Path="/5D8A1FAC/5FF96B68" Ref="#PWR?"  Part="1" 
@@ -206,7 +206,7 @@ F 3 "~" H 4350 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR?
+L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
 U 1 1 5FFB96F5
 P 4100 4550
 AR Path="/5D8A1FAC/5FFB96F5" Ref="#PWR?"  Part="1" 
@@ -467,7 +467,7 @@ Wire Wire Line
 	6800 2100 6750 2100
 Connection ~ 6750 2100
 $Comp
-L otter:GND #PWR0213
+L OtterCastAmp-rescue:GND-otter #PWR0213
 U 1 1 601BC91C
 P 6800 2400
 F 0 "#PWR0213" H 6800 2150 50  0001 C CNN
@@ -481,7 +481,7 @@ Wire Wire Line
 	6800 2400 6750 2400
 Connection ~ 6750 2400
 $Comp
-L otter:GND #PWR0214
+L OtterCastAmp-rescue:GND-otter #PWR0214
 U 1 1 601C6C24
 P 6600 2000
 F 0 "#PWR0214" H 6600 1750 50  0001 C CNN
@@ -510,7 +510,7 @@ Connection ~ 5150 1700
 Wire Wire Line
 	4850 1700 5150 1700
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAmp-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 6023A1C9
 P 6600 1700
 AR Path="/5D8A1FAC/6023A1C9" Ref="#PWR?"  Part="1" 
@@ -556,7 +556,7 @@ $EndComp
 Connection ~ 4750 2100
 Connection ~ 4850 1700
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAmp-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 6027AD71
 P 4250 1700
 AR Path="/5D8A1FAC/6027AD71" Ref="#PWR?"  Part="1" 
@@ -600,7 +600,7 @@ F 3 "" H 4750 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAmp-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 602F2215
 P 4250 2100
 AR Path="/5D8A1FAC/602F2215" Ref="#PWR?"  Part="1" 
@@ -1243,7 +1243,7 @@ $EndComp
 Wire Wire Line
 	6750 5400 6750 5350
 $Comp
-L otter:GND #PWR0231
+L OtterCastAmp-rescue:GND-otter #PWR0231
 U 1 1 60A50D39
 P 6800 5400
 F 0 "#PWR0231" H 6800 5150 50  0001 C CNN
@@ -1270,7 +1270,7 @@ Wire Wire Line
 	6750 5100 6750 5150
 Connection ~ 6400 5100
 $Comp
-L otter:PJ-3270 J7
+L OtterCastAmp-rescue:PJ-3270-otter J7
 U 1 1 60B772BD
 P 9050 2900
 F 0 "J7" H 8712 2818 50  0000 R CNN
@@ -1281,7 +1281,7 @@ F 3 "~" H 9050 2900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L otter:PJ-3270 J6
+L OtterCastAmp-rescue:PJ-3270-otter J6
 U 1 1 60B798B5
 P 8450 3400
 F 0 "J6" H 8112 3318 50  0000 R CNN
@@ -1292,7 +1292,7 @@ F 3 "~" H 8450 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L otter:PJ-3270 J5
+L OtterCastAmp-rescue:PJ-3270-otter J5
 U 1 1 60B92BDF
 P 3200 3100
 F 0 "J5" H 2862 3018 50  0000 R CNN
@@ -1333,7 +1333,7 @@ $EndComp
 Wire Wire Line
 	2950 2500 2950 2450
 $Comp
-L S3-OLinuXino_Rev_A:+3.0VA #PWR?
+L OtterCastAmp-rescue:+3.0VA-S3-OLinuXino_Rev_A #PWR?
 U 1 1 60C3B44B
 P 2950 2200
 AR Path="/5D8A1FAC/60C3B44B" Ref="#PWR?"  Part="1" 
@@ -1398,7 +1398,7 @@ F 3 "" H 5650 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L otter:GND #PWR0295
+L OtterCastAmp-rescue:GND-otter #PWR0295
 U 1 1 5FE5C65A
 P 5850 6600
 F 0 "#PWR0295" H 5850 6350 50  0001 C CNN

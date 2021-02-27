@@ -7,4 +7,5 @@
   (lib (name act4088)(type Legacy)(uri /home/janhenrik/programme/mobile-sbc-hw/act4088.lib)(options "")(descr "")(disabled))
   (lib (name S3-OLinuXino_Rev_A)(type Legacy)(uri /home/janhenrik/Downloads/S3-OLinuXino/HARDWARE/S3-OLinuXino_Rev_A-release/S3-OLinuXino_Rev_A.lib)(options "")(descr ""))
   (lib (name HR961160C)(type Legacy)(uri /home/janhenrik/Downloads/HR961160C.lib)(options "")(descr ""))
+  (lib (name OtterCastAmp-rescue)(type Legacy)(uri ${KIPRJMOD}/OtterCastAmp-rescue.lib)(options "")(descr ""))
 )

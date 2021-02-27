@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR046
+L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR046
 U 1 1 5D97B54A
 P 10450 3250
 F 0 "#PWR046" H 10450 3100 50  0001 C CNN
@@ -33,7 +33,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3400 10850 3400
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR047
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR047
 U 1 1 57966C0E
 P 8100 10700
 F 0 "#PWR047" H 8100 10450 50  0001 C CNN
@@ -79,7 +79,7 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:GND #PWR0101
+L OtterCastAmp-rescue:GND-otter #PWR0101
 U 1 1 6253E6C2
 P 14050 8800
 F 0 "#PWR0101" H 14050 8550 50  0001 C CNN
@@ -90,7 +90,7 @@ F 3 "" H 14050 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR0102
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR0102
 U 1 1 6253EB67
 P 12350 8800
 F 0 "#PWR0102" H 12350 8550 50  0001 C CNN
@@ -171,7 +171,7 @@ Connection ~ 11250 8000
 Wire Wire Line
 	11250 8000 11250 8100
 $Comp
-L otter:GND #PWR0103
+L OtterCastAmp-rescue:GND-otter #PWR0103
 U 1 1 62D601B0
 P 12350 8400
 F 0 "#PWR0103" H 12350 8150 50  0001 C CNN
@@ -193,7 +193,7 @@ F 3 "~" H 11050 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:GND #PWR0104
+L OtterCastAmp-rescue:GND-otter #PWR0104
 U 1 1 62F7C4A4
 P 11050 8450
 F 0 "#PWR0104" H 11050 8200 50  0001 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 8200 12350 8200
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0105
+L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0105
 U 1 1 62FAA3E6
 P 11050 7850
 F 0 "#PWR0105" H 11050 7700 50  0001 C CNN
@@ -313,7 +313,7 @@ Connection ~ 10450 3300
 Wire Wire Line
 	10450 3300 10450 3350
 $Comp
-L otter:GND #PWR0106
+L OtterCastAmp-rescue:GND-otter #PWR0106
 U 1 1 632DD215
 P 10450 3550
 F 0 "#PWR0106" H 10450 3300 50  0001 C CNN
@@ -397,7 +397,7 @@ F 3 "~" H 7000 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:GND #PWR0107
+L OtterCastAmp-rescue:GND-otter #PWR0107
 U 1 1 635CE777
 P 6800 9100
 F 0 "#PWR0107" H 6800 8850 50  0001 C CNN
@@ -412,7 +412,7 @@ UART1_TX
 Text GLabel 6050 9200 0    50   Input ~ 0
 UART1_RX
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0108
+L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0108
 U 1 1 63623CC5
 P 6800 9400
 F 0 "#PWR0108" H 6800 9250 50  0001 C CNN
@@ -487,7 +487,7 @@ MIPI-RESET
 Text GLabel 6750 5800 2    50   Input ~ 0
 MIPI-PWDN
 $Comp
-L S3-OLinuXino_Rev_A:+3.3V #PWR0109
+L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR0109
 U 1 1 63B28C18
 P 4050 5750
 F 0 "#PWR0109" H 4050 5600 50  0001 C CNN
@@ -526,7 +526,7 @@ NoConn ~ 6750 2500
 NoConn ~ 6750 2400
 NoConn ~ 6750 2300
 $Comp
-L otter:AllWinner-S3(FBGA-234) U1
+L OtterCastAmp-rescue:AllWinner-S3(FBGA-234)-otter U1
 U 1 1 67AEEB6A
 P 5450 2900
 F 0 "U1" H 5450 3765 50  0000 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 5650 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L otter:AllWinner-S3(FBGA-234) U1
+L OtterCastAmp-rescue:AllWinner-S3(FBGA-234)-otter U1
 U 3 1 67AF4AB4
 P 5450 6400
 F 0 "U1" H 5450 7250 50  0000 C CNN
@@ -550,7 +550,7 @@ $EndComp
 Text GLabel 4150 2700 0    50   Input ~ 0
 GPIO_LED2
 $Comp
-L S3-OLinuXino_Rev_A:GND #PWR0111
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR0111
 U 1 1 67BFC606
 P 8450 10700
 F 0 "#PWR0111" H 8450 10450 50  0001 C CNN
@@ -609,7 +609,7 @@ USB-ID
 Text GLabel 6750 6200 2    50   Input ~ 0
 MIPI-MSCK
 $Comp
-L otter:AllWinner-S3(FBGA-234) U1
+L OtterCastAmp-rescue:AllWinner-S3(FBGA-234)-otter U1
 U 2 1 67AFCAD8
 P 12350 4500
 F 0 "U1" H 12350 5850 50  0000 C CNN
@@ -697,7 +697,7 @@ Wire Wire Line
 Text GLabel 6750 3500 2    50   Input ~ 0
 GPIO-RST
 $Comp
-L otter:GND #PWR0110
+L OtterCastAmp-rescue:GND-otter #PWR0110
 U 1 1 60362171
 P 7700 9250
 F 0 "#PWR0110" H 7700 9000 50  0001 C CNN
