@@ -167,20 +167,6 @@ Wire Wire Line
 	5500 4400 5950 4400
 $Comp
 L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
-U 1 1 621FAB92
-P 6200 3800
-AR Path="/5D8A1FAC/621FAB92" Ref="#PWR?"  Part="1" 
-AR Path="/621FAB92" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FAB92" Ref="#PWR0178"  Part="1" 
-F 0 "#PWR0178" H 6200 3550 50  0001 C CNN
-F 1 "GND" V 6200 3600 50  0000 C CNN
-F 2 "" H 6200 3800 60  0000 C CNN
-F 3 "" H 6200 3800 60  0000 C CNN
-	1    6200 3800
-	0    -1   1    0   
-$EndComp
-$Comp
-L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 621FAB9A
 P 6750 3700
 AR Path="/5D8A1FAC/621FAB9A" Ref="#PWR?"  Part="1" 
@@ -374,20 +360,6 @@ Text GLabel 5500 3900 2    50   Input ~ 0
 EPHY_RX_N
 $Comp
 L Device:C_Small C?
-U 1 1 6843A0ED
-P 6150 3650
-AR Path="/6843A0ED" Ref="C?"  Part="1" 
-AR Path="/602ACDF9/6843A0ED" Ref="C?"  Part="1" 
-AR Path="/620E795B/6843A0ED" Ref="C99"  Part="1" 
-F 0 "C99" H 6242 3696 50  0000 L CNN
-F 1 "10u" H 6242 3605 50  0000 L CNN
-F 2 "otter:C_0603" H 6150 3650 50  0001 C CNN
-F 3 "~" H 6150 3650 50  0001 C CNN
-	1    6150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 684474E1
 P 6700 3550
 AR Path="/684474E1" Ref="C?"  Part="1" 
@@ -401,21 +373,10 @@ F 3 "~" H 6700 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 3500 6150 3550
-Wire Wire Line
 	6700 3400 6700 3450
-Wire Wire Line
-	5500 3500 6150 3500
 Wire Wire Line
 	6750 3400 6700 3400
 Connection ~ 6700 3400
-Wire Wire Line
-	6200 3500 6150 3500
-Connection ~ 6150 3500
-Wire Wire Line
-	6200 3800 6150 3800
-Wire Wire Line
-	6150 3800 6150 3750
 Wire Wire Line
 	6750 3700 6700 3700
 Wire Wire Line
@@ -1584,14 +1545,54 @@ F 3 "http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf" H 9485 2165 50  
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0157
 U 1 1 60B95A7B
 P 7350 4350
-F 0 "#PWR?" H 7350 4200 50  0001 C CNN
+F 0 "#PWR0157" H 7350 4200 50  0001 C CNN
 F 1 "+3V3" H 7365 4523 50  0000 C CNN
 F 2 "" H 7350 4350 50  0001 C CNN
 F 3 "" H 7350 4350 50  0001 C CNN
 	1    7350 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 60D57C63
+P 2950 3050
+AR Path="/604A1CEE/60D57C63" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60D57C63" Ref="#PWR0251"  Part="1" 
+F 0 "#PWR0251" H 2950 2800 50  0001 C CNN
+F 1 "GNDA" H 2955 2877 50  0000 C CNN
+F 2 "" H 2950 3050 50  0001 C CNN
+F 3 "" H 2950 3050 50  0001 C CNN
+	1    2950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP11
+U 1 1 60D59415
+P 2950 2950
+F 0 "JP11" V 2904 3025 50  0000 L CNN
+F 1 "GNDA" V 2995 3025 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2950 2950 50  0001 C CNN
+F 3 "~" H 2950 2950 50  0001 C CNN
+	1    2950 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
+U 1 1 60D59D85
+P 2950 2850
+AR Path="/5D8A1FAC/60D59D85" Ref="#PWR?"  Part="1" 
+AR Path="/60D59D85" Ref="#PWR?"  Part="1" 
+AR Path="/620E795B/60D59D85" Ref="#PWR0252"  Part="1" 
+F 0 "#PWR0252" H 2950 2600 50  0001 C CNN
+F 1 "GND" V 2950 2650 50  0000 C CNN
+F 2 "" H 2950 2850 60  0000 C CNN
+F 3 "" H 2950 2850 60  0000 C CNN
+	1    2950 2850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3500 6200 3500
 $EndSCHEMATC

@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR01
-U 1 1 5D97B54A
-P 3000 1050
-F 0 "#PWR01" H 3000 900 50  0001 C CNN
-F 1 "+3.3V" H 3000 1190 50  0000 C CNN
-F 2 "" H 3000 1050 60  0000 C CNN
-F 3 "" H 3000 1050 60  0000 C CNN
-	1    3000 1050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 1050 3000 1100
 Wire Wire Line
@@ -176,17 +165,6 @@ Wire Wire Line
 	11750 7400 11750 7450
 Wire Wire Line
 	11750 7400 13050 7400
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR020
-U 1 1 62FAA3E6
-P 11750 7050
-F 0 "#PWR020" H 11750 6900 50  0001 C CNN
-F 1 "+3.3V" H 11765 7223 50  0000 C CNN
-F 2 "" H 11750 7050 60  0000 C CNN
-F 3 "" H 11750 7050 60  0000 C CNN
-	1    11750 7050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	11750 7350 11750 7400
 Connection ~ 11750 7400
@@ -377,17 +355,6 @@ Text GLabel 6000 6750 2    50   Input ~ 0
 MIPI-RESET
 Text GLabel 6000 6650 2    50   Input ~ 0
 MIPI-PWDN
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR019
-U 1 1 63B28C18
-P 3300 6600
-F 0 "#PWR019" H 3300 6450 50  0001 C CNN
-F 1 "+3.3V" H 3300 6740 50  0000 C CNN
-F 2 "" H 3300 6600 60  0000 C CNN
-F 3 "" H 3300 6600 60  0000 C CNN
-	1    3300 6600
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 6600 3300 6650
 Wire Wire Line
@@ -463,10 +430,6 @@ Text GLabel 3400 5150 0    50   Input ~ 0
 I2C0_SCL
 Text GLabel 3400 5250 0    50   Input ~ 0
 I2C0_SDA
-Text GLabel 3400 5350 0    50   Input ~ 0
-UART0_TX
-Text GLabel 3400 5450 0    50   Input ~ 0
-UART0_RX
 Text GLabel 3400 5650 0    50   Input ~ 0
 WL-WAKE-AP
 Text GLabel 6500 2000 2    50   Input ~ 0
@@ -922,7 +885,7 @@ U 1 1 61762F1A
 P 8100 5900
 F 0 "SW1" H 8100 6185 50  0000 C CNN
 F 1 "CONFIG" H 8100 6094 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8100 6100 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQP7C" H 8100 6100 50  0001 C CNN
 F 3 "~" H 8100 6100 50  0001 C CNN
 	1    8100 5900
 	1    0    0    -1  
@@ -1168,6 +1131,73 @@ F 1 "+3V3" H 9265 7073 50  0000 C CNN
 F 2 "" H 9250 6900 50  0001 C CNN
 F 3 "" H 9250 6900 50  0001 C CNN
 	1    9250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
+U 1 1 60CB5D9F
+P 1850 5500
+AR Path="/5D8A1FAC/60CB5D9F" Ref="#PWR?"  Part="1" 
+AR Path="/60CB5D9F" Ref="#PWR0183"  Part="1" 
+AR Path="/620E795B/60CB5D9F" Ref="#PWR?"  Part="1" 
+AR Path="/602ACDF9/60CB5D9F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0183" H 1850 5250 50  0001 C CNN
+F 1 "GND" H 1850 5350 50  0000 C CNN
+F 2 "" H 1850 5500 60  0000 C CNN
+F 3 "" H 1850 5500 60  0000 C CNN
+	1    1850 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0502BAHT D?
+U 1 1 60CB5DA5
+P 1850 5300
+AR Path="/602ACDF9/60CB5DA5" Ref="D?"  Part="1" 
+AR Path="/60CB5DA5" Ref="D8"  Part="1" 
+F 0 "D8" H 2055 5346 50  0000 L CNN
+F 1 "ESD5302F" H 2055 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2075 5250 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1975 5425 50  0001 C CNN
+	1    1850 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 5100 1    50   Input ~ 0
+LINE_DET
+Text GLabel 1950 5100 1    50   Input ~ 0
+GPIO_BTN
+Text GLabel 3400 5450 0    50   Input ~ 0
+I2C0_INT
+$Comp
+L power:+3V3 #PWR0253
+U 1 1 60DC488E
+P 3300 6600
+F 0 "#PWR0253" H 3300 6450 50  0001 C CNN
+F 1 "+3V3" H 3315 6773 50  0000 C CNN
+F 2 "" H 3300 6600 50  0001 C CNN
+F 3 "" H 3300 6600 50  0001 C CNN
+	1    3300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0254
+U 1 1 60DD2B45
+P 3000 1050
+F 0 "#PWR0254" H 3000 900 50  0001 C CNN
+F 1 "+3V3" H 3015 1223 50  0000 C CNN
+F 2 "" H 3000 1050 50  0001 C CNN
+F 3 "" H 3000 1050 50  0001 C CNN
+	1    3000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0255
+U 1 1 60DE2BA4
+P 11750 7050
+F 0 "#PWR0255" H 11750 6900 50  0001 C CNN
+F 1 "+3V3" H 11765 7223 50  0000 C CNN
+F 2 "" H 11750 7050 50  0001 C CNN
+F 3 "" H 11750 7050 50  0001 C CNN
+	1    11750 7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
