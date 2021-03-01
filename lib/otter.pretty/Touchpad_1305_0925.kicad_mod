@@ -1,0 +1,9 @@
+(module Touchpad_1305_0925 (layer F.Cu) (tedit 5E58348C)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Touchpad_1305_0925 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0) (size 13.5 9.25) (layers F.Cu) (roundrect_rratio 0.1))
+)

@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name Downloads)(type KiCad)(uri /home/janhenrik/Downloads)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+  (lib (name ST-TF-003A)(type Legacy)(uri ${KIPRJMOD}/lib/ST-TF-003A.mod)(options "")(descr ""))
+  (lib (name otter)(type KiCad)(uri ${KIPRJMOD}/lib/otter.pretty)(options "")(descr ""))
 )

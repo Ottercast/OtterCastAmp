@@ -1,0 +1,9 @@
+(module Pads7.5x12 (layer F.Cu) (tedit 5C616B65)
+  (fp_text reference REF** (at 0 4.6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Pads7.5x12 (at 0 -4.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0) (size 12 7.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+)

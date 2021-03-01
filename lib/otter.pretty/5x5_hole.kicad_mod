@@ -1,0 +1,9 @@
+(module 5x5_hole (layer F.Cu) (tedit 5F3D96B9)
+  (fp_text reference REF** (at 0 -3.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 5x5_hole (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 5 5) (drill 3.1) (layers *.Cu *.Mask))
+)

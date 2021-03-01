@@ -1,0 +1,10 @@
+(module XY_pads (layer F.Cu) (tedit 5FB968A5)
+  (fp_text reference REF** (at 0.025 -2.75) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value XY_pads (at 0.025 -3.75) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd trapezoid (at -0.2 0) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd trapezoid (at -0.2 0) (size 0.6 1.1) (layers B.Cu B.Paste B.Mask))
+)

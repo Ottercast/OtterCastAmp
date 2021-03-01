@@ -1,0 +1,153 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SUNTECH_ST-TF-003A
+$EndINDEX
+$MODULE SUNTECH_ST-TF-003A
+Po 0 0 0 15 00000000 00000000 ~~
+Li SUNTECH_ST-TF-003A
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -5.21264 -7.38873 1.0005 1.0005 0 0.05 N V 21 "SUNTECH_ST-TF-003A"
+T1 -4.58364 10.8855 1.00188 1.00188 0 0.05 N V 21 "VAL**"
+DS 8.699 -4.187 8.699 9.656 0.127 27
+DS 8.699 9.656 6.1679 9.656 0.127 21
+DA 6.16785 6.8474 5.168 9.472 -208 0.127 21
+DA 0.646878 21.34 0.6469 8.64 208 0.127 21
+DS 0.6469 8.64 -6.287 8.64 0.127 21
+DS -6.287 8.64 -6.287 -5.33 0.127 27
+DS -6.287 -5.33 7.302 -5.33 0.127 27
+DS 7.302 -5.33 7.302 -4.187 0.127 27
+DS 7.302 -4.187 8.699 -4.187 0.127 27
+DP 0 0 0 0 4 0 24
+Dl 4.17167 -0.92833
+Dl 4.17167 1.07304
+Dl -4.83304 1.07304
+Dl -4.83304 -0.92833
+DS 7.17 -5.33 4.07 -5.33 0.127 21
+DS -7.75 -6.5 10.25 -6.5 0.127 26
+DS 10.25 -6.5 10.25 10 0.127 26
+DS 10.25 10 -7.75 10 0.127 26
+DS -7.75 10 -7.75 -6.5 0.127 26
+$PAD
+Sh "1" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.52 -5.33
+$EndPAD
+$PAD
+Sh "2" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.42 -5.33
+$EndPAD
+$PAD
+Sh "3" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.32 -5.33
+$EndPAD
+$PAD
+Sh "4" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.22 -5.33
+$EndPAD
+$PAD
+Sh "5" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.88 -5.33
+$EndPAD
+$PAD
+Sh "6" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.98 -5.33
+$EndPAD
+$PAD
+Sh "7" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.08 -5.33
+$EndPAD
+$PAD
+Sh "8" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -4.18 -5.33
+$EndPAD
+$PAD
+Sh "9" R 1.6 0.7 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -5.28 -5.33
+$EndPAD
+$PAD
+Sh "G1" R 1.6 1.4 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -6.58 -4.73
+$EndPAD
+$PAD
+Sh "G2" R 2.2 1.4 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -6.58 4.77
+$EndPAD
+$PAD
+Sh "G4" R 1.4 1.8 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 8.22 -4.83
+$EndPAD
+$PAD
+Sh "G3" R 2.2 1.4 0 0 2700
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 9.12 4.77
+$EndPAD
+$PAD
+Sh "Hole" C 0.9 0.9 0 0 0
+Dr 0.9 0 0
+At HOLE N 00E0FFFF
+Po -3.68 5.17
+$EndPAD
+$PAD
+Sh "Hole" C 0.9 0.9 0 0 0
+Dr 0.9 0 0
+At HOLE N 00E0FFFF
+Po 4.32 5.17
+$EndPAD
+$EndMODULE SUNTECH_ST-TF-003A

@@ -1,0 +1,9 @@
+(module "M3 Screw" (layer F.Cu) (tedit 5D41D40A)
+  (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 4.7 4.7) (drill 0.9) (layers F.Cu F.Paste F.Mask))
+)

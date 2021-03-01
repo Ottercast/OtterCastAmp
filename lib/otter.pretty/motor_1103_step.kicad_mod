@@ -1,0 +1,14 @@
+(module motor_1103_step (layer F.Cu) (tedit 5F1E1F42)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value motor_1103_step (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.5 0) (layer Eco1.User) (width 0.12))
+  (model ${KIPRJMOD}/step/motor_prop.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
