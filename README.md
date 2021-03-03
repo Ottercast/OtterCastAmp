@@ -1,6 +1,6 @@
-# OtterCastAudioV2
+# OtterCastAmp
 
-OtterCastAudioV2 is an open-source Chromecast Audio replacement, based on a Sochip S3 SoC and pulseaudio sink/source.
+OtterCastAmp is an open-source Sonos Amp replacement, based on a Sochip S3 SoC and pulseaudio sink/source.
 
 ##### Note: DO NOT ORDER/PRODUCE - it still got bugs, this note will disappear when fixed.
 
@@ -20,20 +20,24 @@ OtterCastAudioV2 is an open-source Chromecast Audio replacement, based on a Soch
 
 [@Manawyrm](https://twitter.com/Manawyrm)
 
-*What happened to OtterCastAudioV1?*
+*Do you plan a PoE version?*
 
-Nobody shall ever know
+No.
+(25W of power is not enough and >50W isn't popular)
 
 ## Status
 
-HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
+HW v1.0 is ordered and we already found bugs fixed in v1.1 (not ordered yet)
+Tested & working:
 
- - [x] Audio Line Out
- - [x] Audio Headphone Out
- - [x] Audio In
- - [x] WiFi
- - [x] Ethernet
- - [x] Uart
+ - [ ] Audio Speaker Out
+ - [ ] Audio Line In
+ - [ ] Bluetooth Audio In
+ - [ ] USB PD
+ - [ ] WiFi
+ - [ ] Ethernet
+ - [ ] Display
+ - [ ] Uart
  
  - [x] Webinterface (config)
  - [x] Shairport-sync
@@ -43,6 +47,4 @@ HW v2.0 has bugs, v2.1 shall be ordered and tested soon.
 
 ## Images
 
-![](images/1.jpg)
-![](images/2.jpg)
-![](images/3.jpg)
+![](images/render.png)
