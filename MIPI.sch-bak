@@ -60,20 +60,6 @@ F 3 "" H 3750 3700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
-U 1 1 621FAA43
-P 3300 2300
-AR Path="/5D8A1FAC/621FAA43" Ref="#PWR?"  Part="1" 
-AR Path="/621FAA43" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FAA43" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0165" H 3300 2150 50  0001 C CNN
-F 1 "+3.3V" V 3300 2525 50  0000 C CNN
-F 2 "" H 3300 2300 60  0000 C CNN
-F 3 "" H 3300 2300 60  0000 C CNN
-	1    3300 2300
-	0    -1   1    0   
-$EndComp
-$Comp
 L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
 U 1 1 621FAA8A
 P 2600 4350
@@ -100,20 +86,6 @@ F 2 "" H 2950 4500 60  0000 C CNN
 F 3 "" H 2950 4500 60  0000 C CNN
 	1    2950 4500
 	0    1    -1   0   
-$EndComp
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
-U 1 1 621FAAB0
-P 2600 4100
-AR Path="/5D8A1FAC/621FAAB0" Ref="#PWR?"  Part="1" 
-AR Path="/621FAAB0" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FAAB0" Ref="#PWR0180"  Part="1" 
-F 0 "#PWR0180" H 2600 3950 50  0001 C CNN
-F 1 "+3.3V" V 2600 4325 50  0000 C CNN
-F 2 "" H 2600 4100 60  0000 C CNN
-F 3 "" H 2600 4100 60  0000 C CNN
-	1    2600 4100
-	0    -1   1    0   
 $EndComp
 $Comp
 L OtterCastAmp-rescue:GND-S3-OLinuXino_Rev_A #PWR?
@@ -178,20 +150,6 @@ F 2 "" H 6750 3700 60  0000 C CNN
 F 3 "" H 6750 3700 60  0000 C CNN
 	1    6750 3700
 	0    -1   1    0   
-$EndComp
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
-U 1 1 621FABA1
-P 6750 3400
-AR Path="/5D8A1FAC/621FABA1" Ref="#PWR?"  Part="1" 
-AR Path="/621FABA1" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/621FABA1" Ref="#PWR0174"  Part="1" 
-F 0 "#PWR0174" H 6750 3250 50  0001 C CNN
-F 1 "+3.3V" V 6750 3625 50  0000 C CNN
-F 2 "" H 6750 3400 60  0000 C CNN
-F 3 "" H 6750 3400 60  0000 C CNN
-	1    6750 3400
-	0    1    -1   0   
 $EndComp
 $Comp
 L OtterCastAmp-rescue:+1.1V-S3-OLinuXino_Rev_A #PWRV?
@@ -405,7 +363,7 @@ P 3250 4750
 AR Path="/6859B564" Ref="R?"  Part="1" 
 AR Path="/620E795B/6859B564" Ref="R77"  Part="1" 
 F 0 "R77" V 3200 4600 50  0000 C CNN
-F 1 "2k2" V 3200 4900 50  0000 C CNN
+F 1 "2.2k" V 3200 4900 50  0000 C CNN
 F 2 "otter:R_0402" H 3250 4750 50  0001 C CNN
 F 3 "~" H 3250 4750 50  0001 C CNN
 	1    3250 4750
@@ -739,7 +697,7 @@ P 5800 4450
 AR Path="/68A2F582" Ref="R?"  Part="1" 
 AR Path="/620E795B/68A2F582" Ref="R75"  Part="1" 
 F 0 "R75" V 5800 4700 50  0000 C CNN
-F 1 "5k1" V 5800 4450 50  0000 C CNN
+F 1 "5.6k" V 5800 4450 50  0000 C CNN
 F 2 "otter:R_0402" H 5800 4450 50  0001 C CNN
 F 3 "~" H 5800 4450 50  0001 C CNN
 	1    5800 4450
@@ -1030,7 +988,7 @@ P 3250 5100
 AR Path="/68CF6E99" Ref="R?"  Part="1" 
 AR Path="/620E795B/68CF6E99" Ref="R79"  Part="1" 
 F 0 "R79" V 3200 4950 50  0000 C CNN
-F 1 "2k2" V 3200 5250 50  0000 C CNN
+F 1 "2.2k" V 3200 5250 50  0000 C CNN
 F 2 "otter:R_0402" H 3250 5100 50  0001 C CNN
 F 3 "~" H 3250 5100 50  0001 C CNN
 	1    3250 5100
@@ -1211,20 +1169,6 @@ F 3 "~" H 3600 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2000 3700 2000
-$Comp
-L OtterCastAmp-rescue:+3.3V-S3-OLinuXino_Rev_A #PWR?
-U 1 1 6138FD33
-P 3300 2000
-AR Path="/5D8A1FAC/6138FD33" Ref="#PWR?"  Part="1" 
-AR Path="/6138FD33" Ref="#PWR?"  Part="1" 
-AR Path="/620E795B/6138FD33" Ref="#PWR0161"  Part="1" 
-F 0 "#PWR0161" H 3300 1850 50  0001 C CNN
-F 1 "+3.3V" V 3300 2225 50  0000 C CNN
-F 2 "" H 3300 2000 60  0000 C CNN
-F 3 "" H 3300 2000 60  0000 C CNN
-	1    3300 2000
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	3300 2000 3500 2000
 Text GLabel 8100 5050 0    50   Input ~ 0
@@ -1595,4 +1539,48 @@ F 3 "" H 2950 2850 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5500 3500 6200 3500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60456E38
+P 6750 3400
+F 0 "#PWR?" H 6750 3250 50  0001 C CNN
+F 1 "+3V3" V 6750 3550 50  0000 L CNN
+F 2 "" H 6750 3400 50  0001 C CNN
+F 3 "" H 6750 3400 50  0001 C CNN
+	1    6750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6045BE88
+P 3300 2000
+F 0 "#PWR?" H 3300 1850 50  0001 C CNN
+F 1 "+3V3" V 3300 2150 50  0000 L CNN
+F 2 "" H 3300 2000 50  0001 C CNN
+F 3 "" H 3300 2000 50  0001 C CNN
+	1    3300 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6045C548
+P 3300 2300
+F 0 "#PWR?" H 3300 2150 50  0001 C CNN
+F 1 "+3V3" V 3300 2450 50  0000 L CNN
+F 2 "" H 3300 2300 50  0001 C CNN
+F 3 "" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6045CECD
+P 2600 4100
+F 0 "#PWR?" H 2600 3950 50  0001 C CNN
+F 1 "+3V3" V 2600 4250 50  0000 L CNN
+F 2 "" H 2600 4100 50  0001 C CNN
+F 3 "" H 2600 4100 50  0001 C CNN
+	1    2600 4100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

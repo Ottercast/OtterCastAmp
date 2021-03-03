@@ -1788,4 +1788,28 @@ F 3 "~" H 7000 2900 50  0001 C CNN
 	1    7000 2900
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 604259A9
+P 5650 3850
+F 0 "#PWR?" H 5650 3700 50  0001 C CNN
+F 1 "+3V3" H 5665 4023 50  0000 C CNN
+F 2 "" H 5650 3850 50  0001 C CNN
+F 3 "" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60426587
+P 5650 950
+F 0 "#PWR?" H 5650 800 50  0001 C CNN
+F 1 "+3V3" H 5665 1123 50  0000 C CNN
+F 2 "" H 5650 950 50  0001 C CNN
+F 3 "" H 5650 950 50  0001 C CNN
+	1    5650 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 950 
 $EndSCHEMATC
