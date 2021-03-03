@@ -1478,7 +1478,7 @@ F 3 "" H 9300 2800 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L otter:HR911105A J1
+L OtterCastAmp-rescue:HR911105A-otter J1
 U 1 1 60B1E955
 P 9900 2400
 F 0 "J1" H 9370 2446 50  0000 R CNN

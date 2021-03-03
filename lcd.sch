@@ -186,7 +186,7 @@ LEDA
 Text GLabel 4050 2500 2    50   Input ~ 0
 LEDK
 $Comp
-L otter:AP3019A U8
+L OtterCastAmp-rescue:AP3019A-otter U8
 U 1 1 60C69466
 P 3550 2350
 F 0 "U8" H 3550 2765 50  0000 C CNN
