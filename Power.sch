@@ -1797,7 +1797,7 @@ L Transistor_FET:FDS9435A Q1
 U 1 1 61146A0C
 P 8450 6200
 F 0 "Q1" V 8792 6200 50  0000 C CNN
-F 1 "IRF8736" V 8701 6200 50  0000 C CNN
+F 1 "DMP4015SS" V 8701 6200 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 6125 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF" V 8450 6200 50  0001 L CNN
 	1    8450 6200
@@ -1951,7 +1951,7 @@ Text GLabel 8000 7850 2    50   Input ~ 0
 I2C1_SDA
 Text GLabel 8000 7750 2    50   Input ~ 0
 I2C1_SCL
-Text Notes 8450 8000 2    50   ~ 0
+Text Notes 8800 8050 2    50   ~ 0
 ADR: 0x28
 $Comp
 L power:VBUS #PWR?
@@ -2372,4 +2372,6 @@ Wire Wire Line
 	11350 2700 12100 2700
 Wire Wire Line
 	11350 3000 12100 3000
+Text GLabel 8000 7950 2    50   Input ~ 0
+I2C1_INT
 $EndSCHEMATC

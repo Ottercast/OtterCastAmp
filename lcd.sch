@@ -115,59 +115,6 @@ F 3 "" H 7550 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 7550 1250
-$Comp
-L Device:Jumper_NC_Small JP9
-U 1 1 60C3AE8C
-P 7250 1450
-F 0 "JP9" H 7100 1500 50  0000 C CNN
-F 1 "JMP" H 7400 1500 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7250 1450 50  0001 C CNN
-F 3 "~" H 7250 1450 50  0001 C CNN
-	1    7250 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 1550 7550 1550
-Wire Wire Line
-	7550 1450 7350 1450
-NoConn ~ 7550 1350
-$Comp
-L otter:GND #PWR0236
-U 1 1 60C3E844
-P 7000 1450
-F 0 "#PWR0236" H 7000 1200 50  0001 C CNN
-F 1 "GND" V 7000 1300 50  0000 R CNN
-F 2 "" H 7000 1450 60  0000 C CNN
-F 3 "" H 7000 1450 60  0000 C CNN
-	1    7000 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L otter:GND #PWR0237
-U 1 1 60C3EB01
-P 7000 1550
-F 0 "#PWR0237" H 7000 1300 50  0001 C CNN
-F 1 "GND" V 7000 1400 50  0000 R CNN
-F 2 "" H 7000 1550 60  0000 C CNN
-F 3 "" H 7000 1550 60  0000 C CNN
-	1    7000 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7000 1550 7150 1550
-Wire Wire Line
-	7150 1450 7000 1450
-$Comp
-L Device:Jumper_NC_Small JP10
-U 1 1 60C3C276
-P 7250 1550
-F 0 "JP10" H 7100 1600 50  0000 C CNN
-F 1 "JMP" H 7400 1600 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7250 1550 50  0001 C CNN
-F 3 "~" H 7250 1550 50  0001 C CNN
-	1    7250 1550
-	1    0    0    -1  
-$EndComp
 Text GLabel 7550 1650 0    50   Input ~ 0
 LCD_RESET
 Text GLabel 5450 1650 0    50   Input ~ 0
@@ -494,4 +441,177 @@ F 3 "" H 5300 3650 50  0001 C CNN
 	1    5300 3650
 	0    -1   1    0   
 $EndComp
+Text GLabel 7550 1350 0    50   Input ~ 0
+LCD_SDA
+Text GLabel 7550 1450 0    50   Input ~ 0
+LCD_SCL
+Text GLabel 7550 1550 0    50   Input ~ 0
+LCD_CS
+Text GLabel 5850 2600 0    50   Input ~ 0
+I2C0_SCL
+Text GLabel 5850 2700 0    50   Input ~ 0
+I2C0_SDA
+Text GLabel 5850 2800 0    50   Input ~ 0
+I2C0_INT
+$Comp
+L Device:R_Small R?
+U 1 1 6076BFC5
+P 6100 2600
+AR Path="/6076BFC5" Ref="R?"  Part="1" 
+AR Path="/6145FE90/6076BFC5" Ref="R86"  Part="1" 
+F 0 "R86" V 6050 2450 50  0000 C CNN
+F 1 "0R" V 6050 2800 50  0000 C CNN
+F 2 "otter:R_0402" H 6100 2600 50  0001 C CNN
+F 3 "~" H 6100 2600 50  0001 C CNN
+	1    6100 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6076C28C
+P 6100 2700
+AR Path="/6076C28C" Ref="R?"  Part="1" 
+AR Path="/6145FE90/6076C28C" Ref="R87"  Part="1" 
+F 0 "R87" V 6050 2550 50  0000 C CNN
+F 1 "0R" V 6050 2900 50  0000 C CNN
+F 2 "otter:R_0402" H 6100 2700 50  0001 C CNN
+F 3 "~" H 6100 2700 50  0001 C CNN
+	1    6100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6076C4B4
+P 6100 2800
+AR Path="/6076C4B4" Ref="R?"  Part="1" 
+AR Path="/6145FE90/6076C4B4" Ref="R88"  Part="1" 
+F 0 "R88" V 6050 2650 50  0000 C CNN
+F 1 "0R" V 6050 3000 50  0000 C CNN
+F 2 "otter:R_0402" H 6100 2800 50  0001 C CNN
+F 3 "~" H 6100 2800 50  0001 C CNN
+	1    6100 2800
+	0    1    1    0   
+$EndComp
+Text GLabel 6400 2700 2    50   Input ~ 0
+LCD_SDA
+Text GLabel 6400 2600 2    50   Input ~ 0
+LCD_SCL
+Text GLabel 6400 2800 2    50   Input ~ 0
+LCD_CS
+Wire Wire Line
+	6400 2600 6200 2600
+Wire Wire Line
+	6200 2700 6400 2700
+Wire Wire Line
+	6400 2800 6200 2800
+Wire Wire Line
+	6000 2800 5850 2800
+Wire Wire Line
+	5850 2700 6000 2700
+Wire Wire Line
+	6000 2600 5850 2600
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6077A974
+P 7900 3650
+F 0 "TP8" V 7900 3838 50  0000 L CNN
+F 1 "TestPoint" V 7945 3838 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8100 3650 50  0001 C CNN
+F 3 "~" H 8100 3650 50  0001 C CNN
+	1    7900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 6077E3F5
+P 7900 3550
+F 0 "TP7" V 7900 3738 50  0000 L CNN
+F 1 "TestPoint" V 7945 3738 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8100 3550 50  0001 C CNN
+F 3 "~" H 8100 3550 50  0001 C CNN
+	1    7900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6077E582
+P 7900 3450
+F 0 "TP6" V 7900 3638 50  0000 L CNN
+F 1 "TestPoint" V 7945 3638 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8100 3450 50  0001 C CNN
+F 3 "~" H 8100 3450 50  0001 C CNN
+	1    7900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6077E815
+P 7900 3350
+F 0 "TP5" V 7900 3538 50  0000 L CNN
+F 1 "TestPoint" V 7945 3538 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8100 3350 50  0001 C CNN
+F 3 "~" H 8100 3350 50  0001 C CNN
+	1    7900 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6077EF76
+P 7900 3250
+F 0 "TP4" V 7900 3438 50  0000 L CNN
+F 1 "TestPoint" V 7945 3438 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8100 3250 50  0001 C CNN
+F 3 "~" H 8100 3250 50  0001 C CNN
+	1    7900 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3250 7550 3250
+Wire Wire Line
+	7550 3350 7900 3350
+Wire Wire Line
+	7900 3450 7550 3450
+Wire Wire Line
+	7550 3550 7900 3550
+Wire Wire Line
+	7900 3650 7550 3650
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6078578F
+P 7850 1550
+F 0 "TP3" V 7850 1738 50  0000 L CNN
+F 1 "TestPoint" V 7895 1738 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8050 1550 50  0001 C CNN
+F 3 "~" H 8050 1550 50  0001 C CNN
+	1    7850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60785795
+P 7850 1450
+F 0 "TP2" V 7850 1638 50  0000 L CNN
+F 1 "TestPoint" V 7895 1638 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8050 1450 50  0001 C CNN
+F 3 "~" H 8050 1450 50  0001 C CNN
+	1    7850 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6078579B
+P 7850 1350
+F 0 "TP1" V 7850 1538 50  0000 L CNN
+F 1 "TestPoint" V 7895 1538 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8050 1350 50  0001 C CNN
+F 3 "~" H 8050 1350 50  0001 C CNN
+	1    7850 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 1350 7550 1350
+Wire Wire Line
+	7550 1450 7850 1450
+Wire Wire Line
+	7850 1550 7550 1550
 $EndSCHEMATC

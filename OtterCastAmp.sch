@@ -432,8 +432,6 @@ Text GLabel 3400 5250 0    50   Input ~ 0
 I2C0_SDA
 Text GLabel 3400 5650 0    50   Input ~ 0
 WL-WAKE-AP
-Text GLabel 6500 2000 2    50   Input ~ 0
-USB-ID
 Text GLabel 6000 7050 2    50   Input ~ 0
 MIPI-MSCK
 Wire Wire Line
@@ -1198,6 +1196,32 @@ F 1 "+3V3" H 11765 7223 50  0000 C CNN
 F 2 "" H 11750 7050 50  0001 C CNN
 F 3 "" H 11750 7050 50  0001 C CNN
 	1    11750 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 2000 2    50   Input ~ 0
+I2C1_INT
+Text GLabel 9750 7350 3    50   Input ~ 0
+I2C1_INT
+$Comp
+L Device:R_Small R89
+U 1 1 608554A2
+P 9750 7250
+F 0 "R89" H 9691 7296 50  0000 R CNN
+F 1 "2.2k" H 9691 7205 50  0000 R CNN
+F 2 "otter:R_0402" H 9750 7250 50  0001 C CNN
+F 3 "~" H 9750 7250 50  0001 C CNN
+	1    9750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0219
+U 1 1 608554A8
+P 9750 7150
+F 0 "#PWR0219" H 9750 7000 50  0001 C CNN
+F 1 "+3V3" H 9765 7323 50  0000 C CNN
+F 2 "" H 9750 7150 50  0001 C CNN
+F 3 "" H 9750 7150 50  0001 C CNN
+	1    9750 7150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
