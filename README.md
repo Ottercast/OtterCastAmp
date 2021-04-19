@@ -4,7 +4,42 @@ OtterCastAmp is an open-source Sonos Amp replacement, based on a Sochip S3 SoC a
 
 ##### Note: ORDER ON YOUR OWN RISK - all bugs are fixed, but the latest version 1.2 has not been tested yet
 
+![](images/f.jpg)
+![](images/b.jpg)
+
+
 [Demo](https://twitter.com/Toble_Miner/status/1360255162682638337)
+
+## How do I get one?
+
+We are currently planning a small batch production run, stay tuned.
+
+You don't want to wait? You can of course run a small batch on your own! Please have a look into the [gerber folder](/gerber_v1.2), a batch size of just 5 (and up to 30) boards is supported by JLC.
+
+## Installation & Configuration
+
+OtterCastAudio can either be configured via the `config.sh` file or via the web-interface.
+
+![](images/w.jpeg)
+
+Check out our [Documentation](https://cast.otter.jetzt/docs/) for more information!
+
+## Schematics?
+
+[Schematics!](/OtterCastAudioV2.pdf)
+
+## Team
+
+ - [@FauthNiklas](https://twitter.com/FauthNiklas) Hardware - OtterCastAmp
+ - [@JanHenrikH](https://twitter.com/JanHenrikH) Hardware - OtterCastAudio
+ - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
+ - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
+
+
+## Do you plan a PoE version?
+
+No.
+(25W of power is not enough and >50W isn't popular)
 
 ## Status
 
@@ -19,75 +54,13 @@ Tested & working:
  - [x] Ethernet
  - [ ] Display
  - [x] Uart
- 
+
  - [x] Webinterface (config)
  - [x] Shairport-sync
  - [x] Pulseaudio sink
  - [x] Pulseaudio source
  - [x] snapcast
 
-## Team
+## License
 
-*Hardware by:*
-
-[@FauthNiklas](https://twitter.com/FauthNiklas)
-
-[@JanHenrikH](https://twitter.com/JanHenrikH)
-
-*Bringup & Linux build & software by:*
-
-[@Toble_Miner](https://twitter.com/Toble_Miner)
-
-[@Manawyrm](https://twitter.com/Manawyrm)
-
-*Do you plan a PoE version?*
-
-No.
-(25W of power is not enough and >50W isn't popular)
-
-## Build Instructions
-
-### Step 1: Get preassembled PCBs from JLCPCB
-There are ready-to-order gerber files in this repo. Make sure to choose these settings when ordering the PCBs.
-
-![](images/pcb.png)
-
-For the front and back PCB, use these settings:
-
-![](images/front.png)
-
-You can use JLCPCB's assembly service to get most parts assembled. With the current supplychain situation, not all parts are available. Some parts can not be assembled by JLCPCB and have to be soldered on manually.
-
-The price for 10pcs assembled PCBs is $30 in PCBs and $200 in parts.
-
-### Step 2: Buy additional parts
-You will need:
-LCD KD35WVFPD107  
-https://aliexpress.com/item/4001112368958.html
-
-Allwinner S3  
-https://aliexpress.com/item/4001284135834.html
-
-AP6255  
-https://aliexpress.com/item/4000302317437.html
-
-Case (comes in black if you contact the seller)  
-https://aliexpress.com/item/32591351153.html
-
-A bunch of LCSC parts  
-C475204, C424654, C12074, C91145, C388883, C381134, C454912
-
-Mouser / DigiKey  
-STUSB4500QTR, TAS5825M
-
-Misc  
-12x20x50mm Aluminium Block
-M3x8 Screws
-
-### Step 3: Assemble OtterCastAmp
-
-Video tutorial follows soon...
-
-## Images
-
-![](images/render.png)
+![MIT Licensed HW](images/license.png)
