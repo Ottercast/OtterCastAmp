@@ -64,3 +64,9 @@ Tested & working:
 ## License
 
 ![MIT Licensed HW](images/license.png)
+
+
+Note: The following files or directories are excluded from the License and are otherwise licensed
+
+ - 3D/
+ - datasheets/
