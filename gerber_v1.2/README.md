@@ -3,11 +3,11 @@
 ### Step 1: Get preassembled PCBs from JLCPCB
 There are ready-to-order gerber files in this repo. Make sure to choose these settings when ordering the PCBs.
 
-![](images/pcb.png)
+![](/images/pcb.png)
 
 For the front and back PCB, use these settings:
 
-![](images/front.png)
+![](/images/front.png)
 
 You can use JLCPCB's assembly service to get most parts assembled. With the current supplychain situation, not all parts are available. Some parts can not be assembled by JLCPCB and have to be soldered on manually.
 
