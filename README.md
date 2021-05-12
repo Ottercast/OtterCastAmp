@@ -8,8 +8,6 @@ OtterCastAmp is an open-source Sonos Amp replacement, based on a Sochip S3 SoC a
 ![](images/b1.jpg)
 
 
-[Demo](https://twitter.com/Toble_Miner/status/1360255162682638337)
-
 ## How do I get one?
 
 We are currently planning a small batch production run, stay tuned.
