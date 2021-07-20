@@ -1,0 +1,6 @@
+gerbers: gerber_v1.2
+bom: gerber_v1.2/bom.csv
+site: https://cast.otter.jetzt/
+eda:
+  type: kicad
+  pcb: OtterCastAmp.kicad_pcb
