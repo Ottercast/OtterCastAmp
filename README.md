@@ -27,8 +27,8 @@ Check out our [Documentation](https://cast.otter.jetzt/docs/) for more informati
 
 ## Team
 
- - [@FauthNiklas](https://twitter.com/FauthNiklas) Hardware - OtterCastAmp
- - [@JanHenrikH](https://twitter.com/JanHenrikH) Hardware - OtterCastAudio
+ - [@lucysrausch](https://twitter.com/lucysrausch) Hardware - OtterCastAmp
+ - [@_Jana_Marie](https://twitter.com/_Jana_Marie) Hardware - OtterCastAudio
  - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
  - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
 
