@@ -10,6 +10,7 @@ OtterCastAmp is an open-source Sonos Amp replacement, based on a Sochip S3 SoC a
 ## How do I get one?
 
 We are currently planning a small batch production run, stay tuned.
+[editors notes: It is 2024 now and noone really expected how bad covid would affect the supply chain. While all parts are available again, we are only slowly getting interested in this project again]
 
 You don't want to wait? You can of course run a small batch on your own! Please have a look into the [gerber folder](/gerber_v1.2), a batch size of just 5 (and up to 30) boards is supported by JLC.
 
@@ -27,7 +28,7 @@ Check out our [Documentation](https://cast.otter.jetzt/docs/) for more informati
 
 ## Team
 
- - [@lucysrausch](https://twitter.com/lucysrausch) Hardware - OtterCastAmp
+ - [@lucysrausch](https://bsky.app/profile/lucysrausch.bsky.social) Hardware - OtterCastAmp
  - [@_Jana_Marie](https://twitter.com/_Jana_Marie) Hardware - OtterCastAudio
  - [@Toble_Miner](https://twitter.com/Toble_Miner) Software - Embedded Linux
  - [@Manawyrm](https://twitter.com/Manawyrm) Software - Frontend & OTA
@@ -35,7 +36,7 @@ Check out our [Documentation](https://cast.otter.jetzt/docs/) for more informati
 
 ## Do you plan a PoE version?
 
-No.
+Maybe.
 (25W of power is not enough and >50W isn't popular)
 
 ## Status
@@ -49,7 +50,7 @@ Tested & working:
  - [x] USB PD
  - [x] WiFi
  - [x] Ethernet
- - [ ] Display
+ - [x] Display
  - [x] Uart
 
  - [x] Webinterface (config)
