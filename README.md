@@ -18,7 +18,7 @@ You don't want to wait? You can of course run a small batch on your own! Please 
 
 After [downloading and flashing](https://cast.otter.jetzt/docs/firmware/#download-ready-made-images) the image, OtterCastAmp can either be configured via the `config.ini` file or via the web-interface.
 
-![](images/w.jpeg)
+![Screenshot of the webinterface provided by the OtterCastAmp](images/webinterface.png)
 
 Check out our [Documentation](https://cast.otter.jetzt/docs/) for more information!
 
